@@ -7,6 +7,7 @@ function init(){
         alert("Bennett Sherman:  " + textbox.value);
     }
 
-    
+    button.addEventListener('click', revealText);
+}
 
 window.addEventListener('load', init);
